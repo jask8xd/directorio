@@ -5,7 +5,7 @@ La aplicación esta hecha con Ruby on Rails 4.2.5.1 para el backend, FlexBoxGrid
 
 ## Uso
 
-Ingresar a la siguiente url: 
+Ingresar a la siguiente url: https://directorio-jask8xd.c9users.io
 
 1.- Dar click en registrarte, ingresar tus datos de usuario.
 
