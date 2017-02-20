@@ -1,0 +1,66 @@
+html, body{
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.btn{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor:pointer;
+	font-size: 1.2em;
+	padding: 7px 5px;
+	border-radius: 4px;
+}
+a,a:visited{
+	color: inherit ;
+	text-decoration: none;  
+}
+#logo{
+	font-size: 1.2em;
+}
+.no-margin{
+	margin: 0px;
+}
+.red{
+	color: #1D2B85 !important;
+}
+.blue{
+	color: #093658 !important;
+}
+.be-blue{
+	background-color: #093658;
+}
+.white{
+	color: #ECF0F1;
+}
+.large-padding{
+	padding: 10px 7px;
+}
+.field , .top-space , .actions{
+	margin-top:1em;
+}
+.form-control{
+	border:none;
+	border-bottom: 1px solid;
+	outline: none;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;	
+}
+.text-left{
+	text-align: left;
+}
+.no-list{
+	list-style:none;
+}
+.container{
+	width:80% ; 
+	margin: 0 auto;
+}
+.container-sm{
+	width:60% ; 
+	margin: 0 auto;
+}
+

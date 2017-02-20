@@ -1,0 +1,33 @@
+<% action ||= 'Crear'%>
+<h1><%= action %> Contacto</h1>
+<%= form_for(@contact) do |f| %>
+	<% @contact.errors.full_messages.each do |message| %>
+		<div class="be-blue white top-space">
+			* <%= message%>
+		</div>
+	<%end%>
+	<div class="field">
+		<%= f.text_field :name, placeholder: "Nombre del contacto" , class:"form-control" %>
+	</div>
+	<div class="field">
+		<%= f.text_field :lastname, placeholder: "Apellido del contacto" , class:"form-control" %>
+	</div>
+	<div class="field">
+		<%= f.text_field :email, placeholder: "Correo electrónico del contacto" , class:"form-control" %>
+	</div>
+	<div class="field">
+		<%= f.text_field :phone_1, placeholder: "Teléfono de Casa" , class:"form-control" %>
+	</div>
+	<div class="field">
+		<%= f.text_field :phone_2, placeholder: "Teléfono Célular" , class:"form-control" %>
+	</div>
+	<div class="field">
+		<%= f.text_area :address, placeholder: "Dirección del contacto", style:"height:150px" , class:"form-control" %>
+	</div>
+	<div class="field">
+		<%= f.text_field :web, placeholder: "Página Web del contacto", class:"form-control" %>
+	</div>
+	<div class="field">
+		<%= f.submit "Guardar", class: "btn be-blue white large-padding" %>
+	</div>
+<% end %>

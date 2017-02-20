@@ -1,0 +1,29 @@
+<div class="container-sm">
+	<div class="center-xs">
+		<h1> <%= @contact.name %> <%= @contact.lastname %></h1>
+	</div>
+	<div>
+		<h3>Dirección:</h3>
+		<%= @contact.address %>
+	</div>
+	
+	<h3>Información de contacto</h3>
+		<ul>
+			<li>
+				Correo eléctronico: <%= @contact.email %>
+			</li>
+			<li>
+				Télefono de Casa: <%= @contact.phone_1 %>
+			</li>
+			<li>
+				Télefono Celular: <%= @contact.phone_2 %>
+			</li>
+			<li>
+				Página web: <%= @contact.web %>
+			</li>
+		</ul>
+	<div>
+		<%= link_to "Ir a contactos", root_path, class: "btn be-blue white" %>
+	</div>		
+</div>
+

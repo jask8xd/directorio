@@ -1,0 +1,1490 @@
+
+
+Started GET "/contacts/" for ::1 at 2017-02-19 22:43:22 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)[0m
+  Rendered contacts/index.html.erb within layouts/application (18.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 9356ms (Views: 9283.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.self-25192bf0bec8c03558e8bcf57a7155b6cbf070524193ab34a6be18873621bac7.css?body=1" for ::1 at 2017-02-19 22:43:31 -0600
+
+
+Started GET "/contacts/2" for ::1 at 2017-02-19 22:43:58 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 156ms (Views: 145.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/2" for ::1 at 2017-02-19 22:46:33 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 8672ms (Views: 8663.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/flexboxgrid.self-f40164a8ab9f2abaf7373ce6fd8fcc7eacba2b3fc1af2f91f6910bb5ca299dc6.css?body=1" for ::1 at 2017-02-19 22:46:41 -0600
+
+
+Started GET "/assets/style.self-b9777cb732ed53bbea217b95750a5367ffa3a06f809b49b73779447b5b861448.css?body=1" for ::1 at 2017-02-19 22:46:41 -0600
+
+
+Started GET "/assets/application.self-06122a7248b54899c4e727619b6f0744aa0345f91fc8a7a4f145f5a8e7af9666.css?body=1" for ::1 at 2017-02-19 22:46:41 -0600
+
+
+Started GET "/contacts/2" for ::1 at 2017-02-19 22:47:24 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 6378ms (Views: 6371.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/flexboxgrid.self-76e3e473eb67d4d38bfb967758d55443a78f1efba6ec4300f55ec1919c19e86f.css?body=1" for ::1 at 2017-02-19 22:47:31 -0600
+
+
+Started GET "/contacts/2" for ::1 at 2017-02-19 23:04:11 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/show.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 6237ms (Views: 6156.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/contacts/2" for ::1 at 2017-02-19 23:07:15 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/show.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 224ms (Views: 218.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/img/logo_blanco.png" for ::1 at 2017-02-19 23:07:15 -0600
+
+ActionController::RoutingError (No route matches [GET] "/contacts/img/logo_blanco.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (22.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (115.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (98.0ms)
+
+
+Started GET "/contacts/2" for ::1 at 2017-02-19 23:09:23 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/show.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 245ms (Views: 240.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2017-02-19 23:09:34 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"bIPjMJLhI0qlQMfpdcWjNCqjqPJt+CV5jy8n73faCJ+jCPf9Rd4Xhv6Z9QDywmxm+/t38jkixRuOcAypuwhr0w=="}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:09:34 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:09:34 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (9.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (41.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 257ms (Views: 254.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:10:37 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.6ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 247ms (Views: 247.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:10:49 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 207ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:11:04 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 221ms (Views: 219.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:11:24 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 216ms (Views: 214.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-19 23:11:25 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (10.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (19.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 196ms (Views: 194.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-19 23:14:00 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 241ms (Views: 240.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-19 23:16:13 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (14.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 250ms (Views: 248.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:16:16 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 190ms (Views: 189.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-19 23:16:17 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 237ms (Views: 236.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-19 23:16:44 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (12.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 187ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-19 23:17:44 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (13.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 236ms (Views: 234.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:17:48 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:17:48 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 189ms (Views: 187.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-19 23:17:53 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 192ms (Views: 191.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:17:55 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 220ms (Views: 217.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:17:56 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 173ms (Views: 171.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:17:58 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:17:58 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (21.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 220ms (Views: 218.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:18:59 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:18:59 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 235ms (Views: 233.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:19:01 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 222ms (Views: 220.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:19:02 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 219ms (Views: 217.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-02-19 23:19:58 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LtqN1jJ1/idWZmXCzd6AjYl+ZLWUhEXdWpll/0ySsdfqad1BTfq8aAsQEkPDdXu2R0onPG77qDkxtoG9wvsymg==", "user"=>{"email"=>"almarazjair@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "almarazjair@gmail.com"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-02-20 04:26:48.147422"], ["current_sign_in_at", "2017-02-20 05:19:58.224276"], ["sign_in_count", 5], ["updated_at", "2017-02-20 05:19:58.227276"], ["id", 1]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 145ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:19:58 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 191ms (Views: 186.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:20:41 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 226ms (Views: 224.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:22:48 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 459ms (ActiveRecord: 3.0ms)
+
+ActionView::Template::Error (couldn't find file 'bootstrap-sprockets' with type 'application/javascript'):
+    3: <head>
+    4:   <title>Directorio</title>
+    5:   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/assets/javascripts/application.js:14
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___940305204_55507764'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (109.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:23:42 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'bootstrap-sprockets' with type 'application/javascript'):
+    3: <head>
+    4:   <title>Directorio</title>
+    5:   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    6:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    7:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:   <%= csrf_meta_tags %>
+    9: </head>
+  app/assets/javascripts/application.js:14
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___940305204_55507764'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (43.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (90.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:24:03 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (7.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 426ms (Views: 421.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:24:39 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 59ms (Views: 55.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:25:39 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 116ms (Views: 109.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:27:23 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 94ms (Views: 75.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:30:47 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 76ms (Views: 72.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:32:35 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 168ms (Views: 163.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-8b181f5e1d628693341e0c28ea75dfec4bc2362b267dd858ec3f1b1d497137a1.css?body=1" for ::1 at 2017-02-19 23:32:35 -0600
+
+
+Started DELETE "/users/sign_out" for ::1 at 2017-02-19 23:32:37 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HmbYFSDkH1pRjn0fH8UDo+p5PStmjdc7WNNHnE/KxRj1HEwClkpVwXi1PVx6YTjdejPlX35YCIAvsWyjCQEJwg=="}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:32:37 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:32:37 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (64.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 157ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:33:37 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 164ms (Views: 162.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-787c2e55f6f8b78a9b0c380aee9b4dcb76bb2e70a0b07b336151eb2049cf7dbe.css?body=1" for ::1 at 2017-02-19 23:33:37 -0600
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-19 23:33:45 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 84ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:33:48 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-02-19 23:33:50 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jLHOrb38/7b0csiUGv8zomlHXSWM0TX5Ms8SDcvGKTSR9YyLoF/6xjJLgiUCMNi859xOimktPP8cxlrp+Ftoig==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jLHOrb38/7b0csiUGv8zomlHXSWM0TX5Ms8SDcvGKTSR9YyLoF/6xjJLgiUCMNi859xOimktPP8cxlrp+Ftoig==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 156ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:33:59 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:33:59 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:34:45 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 82ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:36:10 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (15.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 165ms (Views: 162.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-28dd5f23d837ea0c12ddb9c44cbfe2f87166a52719d64e0b7b5c383d99975bab.css?body=1" for ::1 at 2017-02-19 23:36:10 -0600
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:37:33 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 157ms (Views: 154.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-2f2483d17a61ec89545a5573046182ea2f4eaf91ddcf09b26d4d1c8fb7552250.css?body=1" for ::1 at 2017-02-19 23:37:33 -0600
+
+
+Started POST "/users/sign_in" for ::1 at 2017-02-19 23:37:35 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GxqfxQWiY39GymSdR+TCz4yusllzhdx6ZyPq/OF+YKkGXt3jGAFmD4DzLixfKynRAjWh9pZ51XxJKqIY0uMhFw==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GxqfxQWiY39GymSdR+TCz4yusllzhdx6ZyPq/OF+YKkGXt3jGAFmD4DzLixfKynRAjWh9pZ51XxJKqIY0uMhFw==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-02-19 23:37:48 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aHgN2Xol5Mi16ZDHTlLaUTbd6G7KLjuMRm7K+tuJT7Z1PE//Z4bhuHPQ2nZWnTFPuEb7wS/SMopoZ4Ie6BQOCA==", "user"=>{"email"=>"almarazjair@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "almarazjair@gmail.com"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-02-20 05:19:58.224276"], ["current_sign_in_at", "2017-02-20 05:37:48.895491"], ["sign_in_count", 6], ["updated_at", "2017-02-20 05:37:48.897491"], ["id", 1]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 140ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:37:48 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 73ms (Views: 67.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1/edit" for ::1 at 2017-02-19 23:38:50 -0600
+Processing by ContactsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/_form.html.erb (6.0ms)
+  Rendered contacts/edit.html.erb within layouts/application (10.0ms)
+  Rendered partials/_navigation.html.erb (2.0ms)
+Completed 200 OK in 87ms (Views: 77.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:39:46 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 89ms (Views: 84.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:40:05 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 149ms (Views: 143.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.self-43f35bef99327027c16dd0220fc1df3319142e4e3953fb46a60cf82e7e06404a.css?body=1" for ::1 at 2017-02-19 23:40:05 -0600
+
+
+Started GET "/" for ::1 at 2017-02-19 23:40:06 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 77ms (Views: 72.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1/edit" for ::1 at 2017-02-19 23:40:10 -0600
+Processing by ContactsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/_form.html.erb (1.0ms)
+  Rendered contacts/edit.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 78ms (Views: 72.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1/edit" for ::1 at 2017-02-19 23:40:12 -0600
+Processing by ContactsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/_form.html.erb (11.0ms)
+  Rendered contacts/edit.html.erb within layouts/application (14.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 110ms (Views: 101.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1/edit" for ::1 at 2017-02-19 23:40:40 -0600
+Processing by ContactsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/_form.html.erb (1.0ms)
+  Rendered contacts/edit.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 59.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:40:42 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 82ms (Views: 74.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:40:44 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 78ms (Views: 75.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:40:44 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 69.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:40:45 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 77ms (Views: 72.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:41:09 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 72ms (Views: 67.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:41:58 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-19 23:41:58 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/flexboxgrid.self-b970699bc4d59c38bc48560b26bd4f4722f6f337783f0379fd72fdeb6e1dafe0.css?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/style.self-43f35bef99327027c16dd0220fc1df3319142e4e3953fb46a60cf82e7e06404a.css?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-02-19 23:41:59 -0600
+
+
+Started POST "/users/sign_in" for ::1 at 2017-02-19 23:42:07 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZFeqMwBM6syo4y/T/czOZfvYsv6quB6U8YgM5LtBTDaofYHC2gu2OLRSQ63EZzYZtlbp+fsr+wtp1F3aDBXrXA==", "user"=>{"email"=>"almarazjair@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "almarazjair@gmail.com"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-02-20 05:37:48.895491"], ["current_sign_in_at", "2017-02-20 05:42:07.289271"], ["sign_in_count", 7], ["updated_at", "2017-02-20 05:42:07.292271"], ["id", 1]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 119ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:42:07 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:42:19 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 84ms (Views: 79.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:42:20 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 68ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:43:01 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 86ms (Views: 82.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:48:51 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 161ms (Views: 156.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.self-6687d8492e8f0d74bb69297bfac7ab18c8afe65974054a6ab8457648837b5247.css?body=1" for ::1 at 2017-02-19 23:48:51 -0600
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:49:45 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 76ms (Views: 71.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:50:07 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 76ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:50:08 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 69ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:50:21 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 77ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:50:36 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:51:09 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 81ms (Views: 76.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:51:39 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 107ms (Views: 103.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:51:43 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:51:45 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 58.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:52:23 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 90ms (Views: 87.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1/edit" for ::1 at 2017-02-19 23:52:56 -0600
+Processing by ContactsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/_form.html.erb (2.0ms)
+  Rendered contacts/edit.html.erb within layouts/application (5.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 72ms (Views: 66.0ms | ActiveRecord: 2.0ms)
+
+
+Started PATCH "/contacts/1" for ::1 at 2017-02-19 23:53:00 -0600
+Processing by ContactsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5L6YiUSAlGXqbAwz1lajaQ/SKFVj+ybejokHNCBI7Dxa9feMbDa593OuC4fEB2HWbu+QWZ5Cph2f1/Ps2f/Tjw==", "contact"=>{"name"=>"Juanito", "lastname"=>"Salazar", "email"=>"juanit@salazar.com", "phone_1"=>"1122334455", "phone_2"=>"987654321", "address"=>"Calle allende #4 col. loma azul, tlalnepantla, edo de méxico", "web"=>"www.jairalmaraz.com.m"}, "commit"=>"Guardar", "id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/contacts/1
+Completed 302 Found in 11ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:53:00 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 65.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:53:03 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 69ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:53:12 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 76.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:53:32 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 85ms (Views: 81.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:53:59 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 65ms (Views: 61.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:54:54 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 131ms (Views: 126.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.self-b44c8897381df9e7e29d21503f653fd3d06303e3f8b0fe1919959f1ccc505372.css?body=1" for ::1 at 2017-02-19 23:54:54 -0600
+
+
+Started GET "/" for ::1 at 2017-02-19 23:54:56 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 78ms (Views: 73.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:56:29 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (5.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 63.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:56:45 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 67ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-19 23:56:48 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 78ms (Views: 71.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:56:51 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:59:06 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:59:29 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 83ms (Views: 79.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-19 23:59:44 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 78ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-20 00:00:10 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 183ms (Views: 178.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-de175b60b0d75279e1695cba0c03327765ac9385d66af57dbd62fcf7a0e92b46.css?body=1" for ::1 at 2017-02-20 00:00:10 -0600
+
+
+Started GET "/contacts/1" for ::1 at 2017-02-20 00:01:10 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered contacts/show.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 158ms (Views: 153.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/style.self-8f735da7bb7eb27c3fb8f3530b7a15cc725cb330179b6c0f926942ba192da1d8.css?body=1" for ::1 at 2017-02-20 00:01:10 -0600
+
+
+Started DELETE "/users/sign_out" for ::1 at 2017-02-20 00:01:13 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ilHV/IyJAA3EW7S/kCic1slLUSEaXnvKDSu+6FY3Cbs0Grr5pD8tn12ZswuCeV5pqHbpLefn+wkcdUowr4A2CA=="}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:01:13 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-20 00:01:13 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (9.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (16.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 79ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-20 00:01:17 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-20 00:01:19 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-20 00:01:21 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (9.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (23.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 111ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-20 00:01:22 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (15.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2017-02-20 00:07:19 -0600
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 89ms (Views: 62.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-20 00:07:22 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 84ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-02-20 00:07:29 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ICL6gdyyB6TOY+pgcWmetCsBRuDQZ5RCLO1EnQv+fDofPFKKAkx90bYSRI/cXYJCNADOYKPtLc5cmtBvkBLC0Q==", "user"=>{"email"=>"jask8_xd@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "jask8_xd@hotmail.com"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2017-02-20 04:30:02.743033"], ["current_sign_in_at", "2017-02-20 06:07:29.264323"], ["sign_in_count", 3], ["updated_at", "2017-02-20 06:07:29.266323"], ["id", 2]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 116ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:07:29 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)[0m
+  Rendered contacts/index.html.erb within layouts/application (11.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 85ms (Views: 77.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/2/edit" for ::1 at 2017-02-20 00:07:33 -0600
+Processing by ContactsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered contacts/_form.html.erb (2.0ms)
+  Rendered contacts/edit.html.erb within layouts/application (5.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 72ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/contacts/2" for ::1 at 2017-02-20 00:07:44 -0600
+Processing by ContactsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wIRAGjwl07wQNVqQ333mVKHj/04qqBmQT5GJ0R+pFdz4nOVSYsQrN+1p5teh73lIKhDKPPjBvEhN8LR+HxOutw==", "contact"=>{"name"=>"Alberto Editado", "lastname"=>"Alvarez", "email"=>"betito@prueba.com", "phone_1"=>"12321122", "phone_2"=>"9988778899", "address"=>"Av. siempre viva, colonia: loma azul, municipio de tlalnepantla edo de méxico.", "web"=>"www.betitoalvarez.com.mx"}, "commit"=>"Guardar", "id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "contacts" SET "name" = ?, "updated_at" = ? WHERE "contacts"."id" = ?[0m  [["name", "Alberto Editado"], ["updated_at", "2017-02-20 06:07:44.022167"], ["id", 2]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/contacts/2
+Completed 302 Found in 22ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/contacts/2" for ::1 at 2017-02-20 00:07:44 -0600
+Processing by ContactsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered contacts/show.html.erb within layouts/application (0.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 60ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:07:49 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 77ms (Views: 71.0ms | ActiveRecord: 2.0ms)
+
+
+Started DELETE "/contacts/2" for ::1 at 2017-02-20 00:07:53 -0600
+Processing by ContactsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BXIxCFWFKp9vr0fgrxKWcUz0J93aTFiSdKtVR38xWo89apRAC2TSFJLz+6fRgAltxwcSrwgl/Up2ymjof4vh5A==", "id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT  "contacts".* FROM "contacts" WHERE "contacts"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "contacts" WHERE "contacts"."id" = ?  [["id", 2]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/contacts
+Completed 302 Found in 24ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/contacts" for ::1 at 2017-02-20 00:07:53 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)[0m
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 100ms (Views: 95.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts" for ::1 at 2017-02-20 00:10:08 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)[0m
+  Rendered contacts/index.html.erb within layouts/application (26.0ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined local variable or method `contacts' for #<#<Class:0x85d13c0>:0x8cd0b58>):
+    1: <%if contacts.length == 0 %>
+    2: 	<div class="center-xs">
+    3: 		Aún no has dado de alta contactos en tu directorio.
+    4: 	</div>
+  app/views/contacts/index.html.erb:1:in `_app_views_contacts_index_html_erb__626546801_73768788'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (41.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (92.0ms)
+
+
+Started GET "/contacts" for ::1 at 2017-02-20 00:10:20 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mContact Load (0.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)[0m
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 80ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2017-02-20 00:10:56 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"p/3DP9DWUnF7He8Usd2AECUIT6wkhG0OYZVVm6uwLIGf5WZ3jjeq+oZBU1PPTx8Mrvt63vbtyNZj9Gg0qwqX6g=="}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:10:56 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-20 00:10:56 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 99ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-02-20 00:11:06 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K0z0gWhPIk0SP15qiAUMEErWklIlwU4k4fNka3sygdvOi1sXZ1tzpe0qV/csYShpToEoUKT2rXz5IeHv2M2K3w==", "user"=>{"email"=>"almarazjair@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "almarazjair@gmail.com"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-02-20 05:42:07.289271"], ["current_sign_in_at", "2017-02-20 06:11:06.502748"], ["sign_in_count", 8], ["updated_at", "2017-02-20 06:11:06.503748"], ["id", 1]]
+  [1m[35m (3.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 128ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:11:06 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 88ms (Views: 81.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:13:12 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 74ms (Views: 69.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contacts/new" for ::1 at 2017-02-20 00:13:15 -0600
+Processing by ContactsController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered contacts/_form.html.erb (2.0ms)
+  Rendered contacts/new.html.erb within layouts/application (4.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 65ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:13:45 -0600
+Processing by ContactsController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mContact Load (1.0ms)[0m  [1mSELECT "contacts".* FROM "contacts" WHERE ( user_id = 1)[0m
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 89ms (Views: 84.0ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2017-02-20 00:13:47 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RI3WAbv4X2cS0x69xegPhTHKxVt4syofVFRlhzZK7iWolChg+MtrbhmHRzgUbLt2zz8+p+DLPTFnusyyfpwVNQ=="}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:13:47 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-20 00:13:47 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (19.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 99ms (Views: 97.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-02-20 00:13:56 -0600
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r5wUkK1+QweT6rWWmmW11Dke9RMGPHJZCqOlYS4jNX9sTRotpisJteRaOeiu7zvl/SGHRElBT+GLus6GXIh60w==", "user"=>{"email"=>"jask8_xd@hotmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "jask8_xd@hotmail.com"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-02-20 06:07:29.264323"], ["current_sign_in_at", "2017-02-20 06:13:56.292459"], ["sign_in_count", 4], ["updated_at", "2017-02-20 06:13:56.294459"], ["id", 2]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 119ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:13:56 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)
+  Rendered contacts/index.html.erb within layouts/application (1.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:14:09 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 97ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:14:11 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:14:17 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (1.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)
+  Rendered contacts/index.html.erb within layouts/application (3.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 79ms (Views: 74.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:14:23 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 74ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:14:50 -0600
+Processing by ContactsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mContact Load (0.0ms)[0m  SELECT "contacts".* FROM "contacts" WHERE ( user_id = 2)
+  Rendered contacts/index.html.erb within layouts/application (2.0ms)
+  Rendered partials/_navigation.html.erb (1.0ms)
+Completed 200 OK in 69ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2017-02-20 00:14:54 -0600
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KW7g8xvtwPw+gjfrMAkhSF6qv5fl68KYomReD0/Z7LTlmyKVDQARQiHvN7tJ4xrPQzRYfKitudtq6FSCE+1BNA=="}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-20 00:14:54 -0600
+Processing by ContactsController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-02-20 00:14:54 -0600
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.0ms)
+  Rendered partials/_navigation.html.erb (0.0ms)
+Completed 200 OK in 83ms (Views: 81.0ms | ActiveRecord: 0.0ms)

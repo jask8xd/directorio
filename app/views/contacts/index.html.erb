@@ -1,0 +1,18 @@
+<div class="container-sm" style="padding: 10px 15px" align="right">
+	<a href="contacts/new" class="btn be-blue white">Agregar Contacto</a>
+</div>
+<%if @contacts.length == 0 %>
+	<div class="center-xs" style="padding: 50px 15px">
+		Aún no has dado de alta contactos en tu directorio.
+	</div>
+<%end%>
+<% @contacts.each do |contact| %>
+<div class="container-sm">
+	<h1> <%= link_to contact.name+" "+contact.lastname, contact %></h1>
+	<div>
+		<%= contact.address %> - <%= link_to "Eliminar", contact , data: { confirm: "¿Estas seguro que deseas eliminar este contacto?" },  method: :delete , class: "red" %> - 
+	<%= link_to "Editar" , edit_contact_path( contact ) , class: "blue" %>
+	</div>
+	<hr>
+</div>
+<%end%>
