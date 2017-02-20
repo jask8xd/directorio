@@ -1,6 +1,6 @@
 # Directorio
 
-La aplicación esta hecha con Ruby on Rails para el backend y FlexBoxGrid para el frontend.
+La aplicación esta hecha con Ruby on Rails 4.2.5.1 para el backend, FlexBoxGrid para el frontend y la gema devise para la autenticacion de usuarios.
 
 
 ## Uso
